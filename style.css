@@ -24,8 +24,7 @@ body{
   padding:1.25em;
   color:black;
   text-decoration: none;
-  display:block;
-  float:left;
+  display:inline-block;
   transition: 0.4s;
 }
 .nav a.active {
