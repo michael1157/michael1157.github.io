@@ -2,11 +2,6 @@
   body{
     zoom:0.5;
   }
-  .card{
-    transform: scale(0.4);
-    transform-origin: left top;
-    overflow:hidden;
-  }
 }
 
 body{
