@@ -1,10 +1,11 @@
 @media only screen and (max-width: 600px) {
-  .card {
-    transform:scale(0.6);
-    transform-origin:left top;
-  }
   body{
-    overflow: hidden;
+    zoom:0.5;
+  }
+  .card{
+    transform: scale(0.4);
+    transform-origin: left top;
+    overflow:hidden;
   }
 }
 
@@ -13,24 +14,24 @@ body{
   padding:0;
   background:ghostwhite;
   color:black;
-  font-size:1em;
+  font-size:1rem;
 }
 .header{
   background-color:ghostwhite;
-  padding:1.25em;
+  padding:1.25rem;
   text-align: center;
 }
 .header h1{
-  font-size:3.75em;
+  font-size:3.75rem;
 }
 .nav{
   background-color: orange;
   overflow:hidden;
-  font-size:1em;
+  font-size:1rem;
   font-weight: bold;
 }
 .nav a{
-  padding:1em;
+  padding:1rem;
   color:black;
   text-decoration: none;
   display:block;
@@ -46,11 +47,11 @@ body{
   color:honeydew
 }
 .card{
-  margin:2em auto;
-  border-radius:1em;
-  box-shadow:0 0.25em 0.5em 0 rgba(0,0,0,0.2);
-  width:56.25em;
-  height:31.25em;
+  margin:2rem auto;
+  border-radius:1rem;
+  box-shadow:0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+  width:56.25rem;
+  height:31.25rem;
   display:flex;
   flex-direction: column;
   float:center;
@@ -61,88 +62,91 @@ body{
 .card-image{
   height:50%;
   background-image: linear-gradient(red, yellow); 
-  border-radius:1em 1em 0 0;
+  border-radius:1rem 1rem 0 0;
   position:relative;
 }
 .photo{
-  width:15.5em;
-  margin:1.5em;
+  width:15.5rem;
+  margin:1.5rem;
   transition: 0.6s;
-  border: 0.1em solid #ddd;
-  border-radius: 0.25em;
-  padding: 0.25em;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
   background:azure;
 }
 img:hover{
   transform:scale(1.05);
 }
 .image-text{
-  font-size:x-large;
-  right:6em;
-  top:0.2em;
+  font-size:1.5rem;
+  right:10rem;
+  top:0.2rem;
   text-align: center;
   position: absolute;
 }
 .about{
-  margin:1.25em;
+  margin:1.25rem;
 }
 .icons{
   padding:0;
   margin:0;
+  font-size: 2rem;
 }
 .icons li{
   display:inline-block;
-  margin:0.25em;
+  margin:0.25rem;
   list-style:none;
 }
 .icons li a{
   color: grey;
   text-decoration:none;
-  font-size: 2em;
+  font-size: 2rem;
   transition:0.4s linear;
 }
 .icons li a:hover{
   color:black;
 }
 table{
-  padding:1.25em;
+  padding:1.25rem;
 }
 td{
-  padding:1.25em;
+  padding:1.25rem;
 }
 .footer{
-  padding-top:1.25em;
+  padding-top:1.25rem;
   margin:0;
   text-align: center;
 }
 .card-top{
   height:30%;
   background-image: linear-gradient(red, yellow); 
-  border-radius:1em 1em 0 0;
+  border-radius:1rem 1rem 0 0;
   position:relative;
 }
 .contact-title{
-  font-size: 3em;  
+  font-size: 3rem;  
   text-align: center;
 }
-
+#description{
+  margin:1rem;
+}
 .contact-form{
-  margin:0.75em;
-  padding:0.75em;
+  margin:0.75rem;
+  padding:0.75rem;
   box-sizing: border-box;
   text-align: center;
 }
 
 #submit{
-  border-radius:1em;
+  border-radius:1rem;
   background-color:orange;
   color:black;
-  font-size: 1em;
-  padding:0.75em 2.5em;
-  border:0.1em ;
+  font-size: 1rem;
+  padding:0.75rem 2.5rem;
+  border:0.1rem ;
   cursor:pointer;
   transition:0.4s linear;
-  box-shadow:0 0.25em 0.5em 0 rgba(0,0,0,0.2);
+  box-shadow:0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
 }
 #submit:hover{
   background:green;
@@ -151,12 +155,12 @@ td{
 .contact-info{
   background:lightgoldenrodyellow;
   border:none;
-  margin: 0.75em;
+  margin: 0.75rem;
   outline:none;
-  padding:0.75em;
-  font-size: 1em;
-  border-radius:0.25em;
-  box-shadow:0 0.1em 0.2em 0 rgba(0,0,0,0.1);
+  padding:0.75rem;
+  font-size: 1rem;
+  border-radius:0.25rem;
+  box-shadow:0 0.1rem 0.2rem 0 rgba(0,0,0,0.1);
   transition:0.4s linear;
 }
 .contact-info:hover{
@@ -164,33 +168,42 @@ td{
 }
 #name{
   float:left;
-  width:12.5em;
-  margin-left:2.5em;
+  width:25%;
+  margin-left:2.5rem;
+}
+#mobile{
+  width:25%
 }
 #email{
   float:right;
-  width:13.5em;
+  width:25%;
 }
 #message{
   position:relative;
-  margin:1.25em;
+  margin:1.25rem;
   float:left;
   width:95%;
   background-color: linen;
   font-family:sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   resize:none;
-  border-radius: 0.75em;
-  box-shadow:0 0.1em 0.2em 0 rgba(0,0,0,0.2);
+  border-radius: 0.75rem;
+  box-shadow:0 0.1rem 0.2rem 0 rgba(0,0,0,0.2);
 }
 .edu-content,.exp-content{
   text-align: center;
 }
+.exp-table a{
+  text-decoration: none;
+}
+.edu-table a{
+  text-decoration: none;
+}
 .table-left{
   float:left;
-  width:25em;
-  border:1em;
-  margin:1em;
-  margin-left:3em;
+  width:25rem;
+  border:1rem;
+  margin:1rem;
+  margin-left:1rem;
   text-align: center;
 }
